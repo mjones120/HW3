@@ -1,0 +1,26 @@
+body{
+    color:red;
+}
+p{
+    color:blue;
+}
+.color-class{
+    color:purple;
+}
+#color-id{
+    color:green;
+}
+p> .color-class{
+    color:cyan;
+}
+span .color-class
+{
+    color:yellow;
+}
+span+.color-class
+{
+    color:pink;
+}
+div~.color-class{
+    color:navy;
+}
