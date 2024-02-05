@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link href="https://fonts.googleapis.com/css?family=Raleway:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic" rel="stylesheet" />
+        <title>hw3</title>
+    </head>
+    <body>
+        <div class="parent-container">
+            <div class="majors-container">
+                <div class="majors-content-container">
+                    <p>Majors and Minors</p>
+                    <div class="sidebar">
+                        <a href="https://www.fordham.edu/undergraduate-admission/majors-and-minors/whats-your-passion/" class="sidebar-wyp">What's Your Passion?</a>
+                        <a href="https://www.fordham.edu/undergraduate-admission/majors-and-minors/accelerated-degree-programs/" class="sidebar-adp">Accelerated Degree Program</a>
+                    </div>
+                    <div class="majors-button">Majors and Minors</div>
+                </div>
+            </div>
+        <div class="computer-science-container">
+            <div class="computer-science-content-container">
+                <div class="nav">
+                    Home /
+                    <span class="divider"></span>
+                    Admissions and Aid /
+                    <span class="divider"></span>
+                    Undergraduate Admission /
+                    <span class="divider"></span>
+                    Majors and Minors /
+                    <span class="divider"></span>
+                    Computer Science
+                </div>
+                <h1>Computer Science</h1>
+                <span class="general-block"></span>
+                <div>Degree Options: Major, Minor</div>
+                <div>Locations: Lincoln Center, Rose Hill</div>
+                <div>Visit the <a href="/academics/departments/computer-and-information-science/">Computer and Information Science Department</a></div>
+                <span class="body-lead"></span>
+                <div>
+                    <p>Wherever there’s a computer, there’s a skilled person developing, maintaining, hacking, advancing or simply using it. Be that person.</p>
+                </div>
+                <div class="image">
+                <img src="https://www.fordham.edu/media/review/content-assets/migrated/images/iStock_000021097427Medium.jpg" alt="green circuit board">
+                </div>
+                <div>It’s difficult to imagine life without computers when they’re so central to our information-driven global society. But it’s not difficult to imagine the amazing pursuits you’ll be prepared for with a degree in computer science from Fordham’s department of Computer and Information Sciences.
+                </div>
+                <p>The computer science major emphasizes science and technology, including software design and programming, computer architecture and functions, and the development of an ability to analyze and solve problems in using the computer as a tool.</p>
+            </div>
+        </div>
+        </div>
+        <style>
+            body {
+                height: 100vh;
+                font-family: Raleway, sans-serif;
+                font-size: 1rem;
+                font-weight: 400;
+                line-height: 1.6;
+                text-align: left;
+            }
+            .parent-container {
+                max-width: 1200px;
+                margin: 0 auto;
+                display: flex;
+                flex-direction: column;
+                height: 100%;
+                margin: 0 auto;
+            }
+            .computer-science-container {
+                order: 1;
+                padding: 0 50px;
+            }
+            .majors-container {
+                order: 2;
+                display: flex;
+                flex-direction: column;
+                border-right: 1px solid #e7ebe7;
+            }
+            .majors-content-container {
+                padding: 0 50px;
+            }
+            .divider {
+                padding: 0 5px;
+            }
+
+            @media screen and (min-width: 1200px) {
+                .parent-container {
+                    flex-direction: row;
+                }
+                .computer-science-container {
+                    width: 900px;
+                    order: 2;
+                }
+                .majors-container {
+                    width: 300px;
+                    order: 1;
+                } 
+            }
+            .majors-container .majors-content-container p {
+                margin: 100;
+                color: #900028;
+                font-weight: 600;
+            }
+    
+            .majors-button {
+                text-align: center;
+                background-color: #900028;
+                color:white;
+                padding: 20px;
+                margin-top: 0;
+                border-radius: 2px;
+                margin:2rem 0;
+                font-weight:600;
+                font-size: 1.125rem;
+                line-height: 1.25rem;
+
+            }
+            .computer-science-container .computer-science-content-container h1 {
+                margin: 0;
+                margin-top: 2rem;
+                margin-bottom: 2rem;
+                display:inline-block;
+                color: #900028;
+                font-weight: 300;
+                font-size: 3.125rem;
+                padding: 0 2rem;
+                letter-spacing: -.03rem;
+                width: 500px; 
+            }
+            .computer-science-container .computer-science-content-container p {
+                font-size: 1rem;
+                line-height: 1.6;
+                letter-spacing: 0;
+                padding: 0;
+                margin-bottom: 1.25rem;
+            }
+
+            .image{
+                    float: right;
+                    margin: 0;
+                }
+                .image img {
+                    width: 246px;
+                    height: 246px;
+                    vertical-align: middle;
+                    object-fit: cover;
+                    max-width: 100%;
+                    justify-content: flex-end;
+                }
+            .sidebar{
+                display:block;
+                text-align: center;
+                background-color: lightgray;
+                margin-top: 2rem;
+                margin-bottom: 2rem;
+                border-radius: 1px;
+                padding: 0.25rem 0;
+                letter-spacing: .01rem;
+                font-weight: 400;
+                font-size: .875rem;
+                letter-spacing: .01rem;
+            }
+            .sidebar-wyp{
+                color: #333;
+            }
+            .sidebar-adp{
+                color: #333;
+            }
+        </style>
+    </body>
+</html>
